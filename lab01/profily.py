@@ -7,8 +7,8 @@ love_pred = input("Введите любимый предмет:")
 time = int(input("Введите количество часов подгтовки в неделю:"))
 full_name = name + " " + username
 age4 = age + 4
-time_ned = time * 7
-time_cred = time_ned / 7
+time_4ned = time * 4
+time_cred = time / 7
 print("Учебная карточка:")
 print(f"Имя и фамилия: {full_name}")
 if 1 < age < 120:
@@ -16,7 +16,7 @@ if 1 < age < 120:
 else:
     print("Неверный ввод возраста")
 if time > 0:
-    print(f"Время подготовки за 4 недели:{time_ned}")
+    print(f"Время подготовки за 4 недели:{time_4ned}")
 else:
     print("Неверный ввод времени")
 if time_cred > 0:    
