@@ -6,7 +6,7 @@ age = int(input("Введите возраст:"))
 love_pred = input("Введите любимый предмет:")
 time = int(input("Введите количество часов подгтовки в неделю:"))
 full_name = name + " " + username
-age4 = age * 4
+age4 = age + 4
 time_ned = time * 7
 time_cred = time_ned / 7
 print("Учебная карточка:")
